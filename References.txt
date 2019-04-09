@@ -1,0 +1,20 @@
+Data Structures and Algorithms - Assignment 4
+
+References:
+CPP Reference - general library information
+CPlusPlus.com - general library information
+Stack Overflow
+
+C/C++ Lecture Notes I - Raymond Mitchell - UCSD Extension
+C/C++ Lecture Notes II - Raymond Mitchell - UCSD Extension
+C/C++ Lecture Notes III - Raymond Mitchell III - UCSD Extension
+C/C++ Lecture Notes IV - Raymond Mitchell III - UCSD Extension
+
+
+https://www.geeksforgeeks.org/stdall_of-in-cpp/ - used to check the hasStudent bool value of all windows 
+
+checking the results for calculating the median and mean
+http://www.alcula.com/calculators/statistics/median/
+
+Finding the mean and median
+https://www.geeksforgeeks.org/program-for-mean-and-median-of-an-unsorted-array/
