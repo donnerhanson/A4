@@ -4,14 +4,14 @@ Imagine that the registrar’s office has approached you with the following issu
 The Specifics
 You will model the above problem to meet the registrar’s requirements. As students arrive in the registrar’s office, they will wait in a queue. When a window becomes available they will exit the queue and remain at the service window for however long they need. Your first task will be to build a generic doubly-linked list data structure, from scratch, supporting the usual operations. You will then use this linked list to build a generic queue data structure, supporting the usual operations. You may not use a queue or linked list from the STL libraries. You will then use your queue implementation to finish the problem. (Note that in the spirit of reusability, you should have 3 classes...one for the list implementation, one for the list interface (pure virtual base class) and one for the queue. Of course, you’ll need additional classes to model the rest of the assignment.)
 Input will be in the form of a command line argument (./myprog test.in) that specifies the location of a text file. The text file will define at what times students arrive and will have the following format. The first line will be the number of windows open. The next line will be the time (or clock tick) at which the next students arrive. The next line will be the number of students that arrive at that time. The following lines will be the amount of time each student needs at a window. This is followed by the next clock tick, number of students, etc. For example, and input of:
-5 
-1 
-2 
-5 
-10 
-3 
-1 
-4
+5\n 
+1\n
+2\n
+5\n 
+10\n 
+3\n 
+1\n 
+4\n
  
 Means that 5 windows will be open. At time 1, 2 students arrive. One will need 5 minutes at a window, and the other 10. Then, at time 3, 1 student arrives and needs 4 minutes at a window, etc, etc.
 When students arrive at the same time, assume that the student listed first in the text file is also the first to get into line. In the above, at time 1 there will be 2 students that arrive. The student requiring 5 minutes will get into line before the student requiring 10 minutes.
